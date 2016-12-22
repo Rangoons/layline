@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="435px" height="349px" viewBox="0 0 435 349" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>402F5BEC-0D73-444A-A3BE-DA0791C6DB30</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="429" height="343" rx="4.03750006"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.232818161 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services" transform="translate(-503.000000, -2532.000000)">
+            <g id="Group-9" transform="translate(506.000000, 2533.000000)">
+                <g id="Rectangle-15">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M214.5,0.849009901 L214.5,342.584987" id="Line" stroke="#9B9B9B" stroke-width="0.850000024" stroke-linecap="square"></path>
+                <rect id="Rectangle-16" fill="#4A90E2" x="0" y="12.8992429" width="429" height="51.5969715"></rect>
+                <rect id="Rectangle-16" fill="#0090C2" x="0" y="0" width="429" height="64.4962143" rx="5.65250009"></rect>
+                <g id="Tiers" transform="translate(33.980198, 16.980198)" line-spacing="32.3000009" letter-spacing="0.550478605" font-size="20.9950003">
+                    <text id="&lt;$500k-$500k---$1M-$" font-family="Montserrat-Regular, Montserrat" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="30.3170924" y="88.9207921">&lt;$500k</tspan>
+                        <tspan x="70.5089109" y="121.220793"></tspan>
+                        <tspan x="4.3338044" y="153.520794">$500k - $1M </tspan>
+                        <tspan x="70.5089109" y="185.820795"></tspan>
+                        <tspan x="9.30421467" y="218.120796">$1M - $1.5M</tspan>
+                        <tspan x="70.5089109" y="250.420797"></tspan>
+                        <tspan x="35.0122634" y="282.720798">&gt;$1.5M</tspan>
+                    </text>
+                    <text id="Tier" font-family="Montserrat-SemiBold, Montserrat" font-weight="500" fill="#FFFFFF">
+                        <tspan x="55.241278" y="20">Tier</tspan>
+                    </text>
+                    <text id="Fee-(%)" font-family="Montserrat-SemiBold, Montserrat" font-weight="500" fill="#FFFFFF">
+                        <tspan x="249.469337" y="20">Fee (%)</tspan>
+                    </text>
+                    <text id="1.25%-1.00%-0.75%-0." font-family="Montserrat-Light, Montserrat" font-weight="300" fill="#9B9B9B">
+                        <tspan x="261.265386" y="88.9207921">1.25%</tspan>
+                        <tspan x="290.530693" y="121.220793"></tspan>
+                        <tspan x="258.938303" y="153.520794">1.00%</tspan>
+                        <tspan x="290.530693" y="185.820795"></tspan>
+                        <tspan x="258.261707" y="218.120796">0.75%</tspan>
+                        <tspan x="290.530693" y="250.420797"></tspan>
+                        <tspan x="256.898262" y="282.720798">0.50%</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

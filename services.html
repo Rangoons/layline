@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Martel+Sans:200,400" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/services.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="assets/Chart.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/chart.js"></script>
+</head>
+<body>
+  <div class="DOMcontainer">
+
+
+  <section class="one">
+    <div class="nav" id="nav">
+      <img src="assets/media/logo.png" alt="" class="logo" id="logo">
+      <ul>
+        <li><a href="index.html" onClick="activeItem(this)" class="nav-item" id="home">HOME</a></li>
+        <li><a href="services.html" onClick="activeItem(this)" class="active nav-item" id="services">SERVICES</a></li>
+        <li><a href="about.html" onClick="activeItem(this)" class="nav-item" id="about">WHO WE ARE</a></li>
+        <li><a href="blog.php" onClick="activeItem(this)" class="nav-item" id="blog">BLOG</a></li>
+        <li><a href="contact.html"><button class="nav-btn">CONTACT</button></a></li>
+        <li><a href="login.html"><button class="nav-btn">LOGIN</button></a></li>
+        <li><a href="adv.pdf" target='_blank'><button class="nav-btn">ADV</button></a></li>
+      </ul>
+    </div>
+    <div class="title">
+      Services
+      <hr class="short-rule-blue">
+    </div>
+    <!-- <div class="button-panel">
+      <button class="service-btn"><a href="#investment">Investment</a></button>
+      <button class="service-btn"><a href="#planning">Financial Planning</a></button>
+      <button class="service-btn"><a href="#pricing">Pricing</a></button>
+    </div> -->
+    <div class="service-panels">
+      <div class="panel">
+        <div class="panel-icon todo-list"></div>
+        <h2>Plan</h2>
+        <p>
+          Building plans around what matters most to you.
+          <!-- We build financial plans to bring focus to the most important goals and to ensure you stay on track over the long run. Through planning, we help you achieve peace of mind. -->
+        </p>
+      </div>
+      <div class="panel">
+        <div class="panel-icon bullish"></div>
+        <h2>Invest</h2>
+        <p>
+          Identifying the right asset allocation for achieving your long-term goals.
+          <!-- Intelligent portfolio design means finding the right asset allocation for a client, investing for the long term, and reducing costs in the process. In following these three rules, we maximize the probability of client success. -->
+        </p>
+      </div>
+      <div class="panel">
+        <div class="panel-icon opera-glasses"></div>
+        <h2>Monitor</h2>
+        <p>
+          Reviewing your plan regularly and continuously optimizing your portfolio.
+          <!-- Once we have executed the plan it is our duty to review and help you adjust should challenges or opportunities present themselves. This is the nature of a deep planning relationship. -->
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="two" id="planning">
+    <div class="wrapper">
+      <img src="assets/media/clienttools-dashboard.png" alt=" client tools dashboard" class="client-tools">
+      <div class="title">
+        Financial Planning
+      </div>
+      <hr class="short-rule-blue">
+      <br>
+      <div class="subtitle">
+        This is the foundation of our client relationships.
+      </div>
+      <ul>
+        <li>The deep-dive process that identifies who a client is, what drives them, and which goals are important to them.</li>
+        <li>While every plan varies, at minimum new 		you can expect us to address cash flow, net 		worth, retirement, asset allocation, taxes, 		protection, and estate.</li>
+        <li>We leverage the collaborative functionality of 		our planning platform <EMX LINK> to build and monitor 		client progress – year over year.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="three" id="investment">
+    <div class="wrapper">
+      <div class="title">
+        Investment Management
+      </div>
+      <hr class="short-rule-blue">
+      <br>
+      <div class="subtitle">
+        We offer investment management through our discretionary platform.
+      </div>
+      <ul>
+        <li>Portfolios are designed based on the needs of 		you and your personal risk tolerance level. </li>
+        <li>We allocate assets into liquid investments offering clients full flexibility for liquidity needs.</li>
+        <li>Client assets are held at our custodian bank, 		TD Ameritrade, one of the country’s largest 		low-cost brokerage firms.</li>
+      </ul>
+      <canvas id="mycanvas" width="256" height="256">
+    </div>
+  </section>
+
+
+
+  <section class="four" id="pricing">
+    <div class="wrapper">
+      <div class="title">
+        Monitoring the Plan
+      </div>
+      <hr class="short-rule-blue">
+      <br>
+      <!-- <p>
+        Financial planning starts at $1,200 per year for you with less than $250,000 in invested assets. For those with $250,000 or more, planning is included at no additional charge.
+        <p>
+          Investment management fees are based on a blended tier basis, as illustrated below:
+        </p>
+      </p> -->
+      <ul>
+        <li>We believe that the first plan is only the start. An ongoing relationship over time is what will drive your success.</li>
+        <li>By working with you throughout each year, we will be sure to keep you on track and revisit goals as your life progresses.</li>
+        <li>Our planning process is designed to be adaptive and dynamic. This ensures you receive timely and relevant advice.</li>
+      </ul>
+      <!-- <div class="pricing-chart"></div> -->
+    </div>
+  </section>
+  <footer>
+    <div class="section-one">
+      <div class="logo-lite">
+        <div class="footer-title">
+          LAYLINE ADVISORS
+        </div>
+      </div>
+      <div class="contact-info">
+        <ul>
+          <li>Layline Advisors, LLC</li>
+          <li>Mark Wyand, CFA</li>
+          <li>17 Prince Street</li>
+          <li>Rochester, NY 14623</li>
+          <li>+1 (585) 210-8222</li>
+        </ul>
+      </div>
+    </div>
+    <span class="divide"></span>
+    <div class="section-two">
+      <div class="footer-nav">
+        <ul>
+          <li>HOME</li>
+          <li>SERVICES</li>
+          <li>WHO WE ARE</li>
+          <li>BLOG</li>
+        </ul>
+      </div>
+    </div>
+    <span class="divide"></span>
+    <div class="section-three">
+      <iframe width="240" height="190" frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?q=17%20Prince%20St%20Rochester%20NY&key=AIzaSyDAa4U5hQCHEK7gW3RQCFlo-5TXLAvjoPY" allowfullscreen></iframe>
+    </div>
+    <span class="divide"></span>
+    <div class="section-four">
+      Get in touch. <button class="white-button">CONTACT</button>
+      Access your accounts. <button class="white-button">LOGIN</button>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>

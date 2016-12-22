@@ -1,0 +1,233 @@
+.one{
+  background: url(../media/ocean.png) no-repeat;
+  width: 100%;
+  height: 900px;
+  background-size: cover;
+}
+.two{
+  background-color: #fafafa;
+  height: 683px;
+  width: 100%;
+}
+.three{
+  height: 500px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.four{
+  width: 100%;
+  height: 515px;
+  background-color: #fafafa;
+}
+.four > .wrapper{
+  width: 779px;
+  height: 156px;
+  font-family: Montserrat-light;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+  padding-top: 80px;
+}
+/*.four > .wrapper > p > p{
+  width: 779px;
+  height: 156px;
+  font-family: Montserrat-light;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+}*/
+.one > .title {
+  width: 279px;
+  height: 64px;
+  font-family: Montserrat;
+  font-size: 53px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.4px;
+  color: #2a2a2a;
+  padding-top: 280px;
+  margin: 0 auto;
+}
+.wrapper > .title{
+  width: 231.2px;
+  height: 27px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.6px;
+  color: #4a4a4a;
+}
+.three > .wrapper{
+  padding-top: 80px;
+}
+.three > .wrapper > .title, .four > .wrapper > .title {
+  width: 310.7px;
+  height: 27px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.6px;
+  color: #4a4a4a;
+}
+.wrapper{
+  padding-top:184px;
+  padding-left: 334px;
+}
+.client-tools{
+  float: right;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+#mycanvas{
+  float: right;
+  margin-right: 150px;
+  margin-top: -320px;
+}
+.wrapper > .subtitle{
+  width: 401.9px;
+  height: 52px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+}
+.wrapper > ul > li{
+  width: 401.9px;
+  /*height: 78px;*/
+  font-family: Montserrat-light;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+}
+.one > .title > .short-rule-blue{
+  width: 43px;
+	height: 2px;
+	border: solid 2px #4990e2;
+  float: none;
+  margin-left: 95px;
+}
+.button-panel{
+  width: 505px;
+  margin: 68px auto;
+}
+.service-btn{
+  background-color: transparent;
+  margin-right: 33px;
+  font-family: Montserrat;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 0.4px;
+  border: solid 1px #4a4a4a;
+	color: #4a4a4a;
+  width: 114px;
+  height: 33px;
+}
+.service-btn > a{
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.service-btn:hover{
+  background-color: #0088bc;
+  border: solid 1px #0088bc;
+  color: #fff;
+  cursor: pointer;
+}
+.service-btn:hover > a{
+  color: #fff;
+  cursor: pointer;
+}
+.service-btn:nth-child(2){
+  width: 167px;
+}
+.service-panels{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.panel{
+  width: 315px;
+	height: 250px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.29);
+  margin-right: 37px;
+}
+.panel > h2{
+  width: 52.4px;
+  height: 21px;
+  font-family: Montserrat;
+  font-size: 17.6px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #4a4a4a;
+  margin: 0 auto;
+}
+.panel > p{
+  width: 266px;
+  height: 145.6px;
+  font-family: Montserrat-light;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #4a4a4a;
+  margin: 15px auto;
+}
+.todo-list {
+	width: 85px;
+	height: 80px;
+	object-fit: contain;
+  background: url(../media/todo-list.svg);
+  margin: 34px 111px 20px 119px;
+}
+.bullish {
+	width: 92px;
+	height: 90px;
+	object-fit: contain;
+  background: url(../media/bullish.svg);
+  margin: 26px 112.3px 20px 113.7px;
+}
+.opera-glasses {
+	width: 96px;
+	height: 74px;
+	object-fit: contain;
+  background: url(../media/opera-glasses.svg);
+  margin: 39px 105px 20px 117px;
+}
+.pricing-chart{
+  width: 435px;
+  height: 350px;
+  object-fit: contain;
+  background: url(../media/pricing-chart.png);
+  margin: 50px auto;
+}

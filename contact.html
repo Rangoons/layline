@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Who We Are</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Martel+Sans:200,400" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</head>
+<body>
+  <div class="DOMcontainer">
+  <section class="one">
+    <div class="nav" id="nav">
+      <img src="assets/media/logo.png" alt="" class="logo" id="logo">
+      <ul>
+        <li><a href="index.html" onClick="activeItem(this)" class="nav-item" id="home">HOME</a></li>
+        <li><a href="services.html" onClick="activeItem(this)" class="nav-item" id="services">SERVICES</a></li>
+        <li><a href="about.html" onClick="activeItem(this)" class="nav-item" id="about">WHO WE ARE</a></li>
+        <li><a href="blog.php" onClick="activeItem(this)" class="nav-item" id="blog">BLOG</a></li>
+        <li><a href="#"><button class="nav-btn">CONTACT</button></a></li>
+        <li><a href="login.html"><button class="nav-btn">LOGIN</button></a></li>
+        <li><a href="adv.pdf" target='_blank'><button class="nav-btn">ADV</button></a></li>
+      </ul>
+    </div>
+    <div class="title">
+      CONTACT
+      <hr class="short-rule-blue">
+    </div>
+  </section>
+  <section class="two">
+    <div class="blurb">
+      <h1>Let's get in touch,</h1>
+      <hr class="long-gray-rule">
+      <!-- <p>
+        Mark do you want to put anything here, Mark do you want to put anything here, Mark do you want to put anything here, Mark do you want to put anything here, Mark do you want to put anything here, Mark do you want to put anything here,
+      </p> -->
+    </div>
+    <div class="button-panel">
+      <button id="showForm">Send a Message</button> <div class="or">or</div> <button id="showCalendar">Schedule a Meeting</button>
+    </div>
+    <div class="contact-container">
+      <div class="calendly-inline-widget" data-url="https://calendly.com/mark-wyand" style="min-width:320px;height:580px;" id="calendly"></div>
+      <form action="" id="contact-form">
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" name="fullname" id="fullname">
+        </div>
+        <div class="form-group">
+          <label for="describe">What best describes you?</label>
+          <select name="describe" id="">
+            <option value="working">Working Professional</option>
+            <option value="looking">Looking to Retire</option>
+            <option value="retired">Retired</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone">
+        </div>
+        <div class="form-group" id="assets">
+          <label for="assets">Amount of investable assets (Optional)</label>
+          <input id="slider" type="range" min="0" max="4" step="1" name="assets" />
+        </div>
+        <div class="form-group" id="email-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="extra">Anything else you'd like to mention?</label>
+          <textarea name="extra" rows="8" cols="88"></textarea>
+        </div>
+        <input type="submit" value="SEND" id="send">
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="section-one">
+      <div class="logo-lite">
+        <div class="footer-title">
+          LAYLINE ADVISORS
+        </div>
+      </div>
+      <div class="contact-info">
+        <ul>
+          <li>Layline Advisors, LLC</li>
+          <li>Mark Wyand, CFA</li>
+          <li>17 Prince Street</li>
+          <li>Rochester, NY 14623</li>
+          <li>+1 (585) 210-8222</li>
+        </ul>
+      </div>
+    </div>
+    <span class="divide"></span>
+    <div class="section-two">
+      <div class="footer-nav">
+        <ul>
+          <li>HOME</li>
+          <li>SERVICES</li>
+          <li>WHO WE ARE</li>
+          <li>BLOG</li>
+        </ul>
+      </div>
+    </div>
+    <span class="divide"></span>
+    <div class="section-three">
+      <iframe width="240" height="190" frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?q=17%20Prince%20St%20Rochester%20NY&key=AIzaSyDAa4U5hQCHEK7gW3RQCFlo-5TXLAvjoPY" allowfullscreen></iframe>
+    </div>
+    <span class="divide"></span>
+    <div class="section-four">
+      Get in touch. <button class="white-button">CONTACT</button>
+      Access your accounts. <button class="white-button">LOGIN</button>
+    </div>
+  </footer>
+  </div>
+</body>
+<script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#showCalendar").click(function(){
+        $("#contact-form").hide();
+        $("#calendly").fadeIn();
+    });
+    $("#showForm").click(function(){
+        $("#calendly").hide();
+        $("#contact-form").fadeIn();
+        $("#contact-form").css("display", "flex");
+    });
+});
+</script>
+</html>

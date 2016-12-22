@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="966px" viewBox="0 0 1440 966" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>A8637B60-BC8B-42C4-A23D-878B51133B90</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#009FCE" offset="0%"></stop>
+            <stop stop-color="#0066A0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(0.000000, -592.000000)" fill="url(#linearGradient-1)">
+            <polygon id="Path-3" points="1440.01312 726.72998 1440.01312 1557.16799 0.0200102512 1422.68507 0.00457763672 592.323975"></polygon>
+        </g>
+    </g>
+</svg>
