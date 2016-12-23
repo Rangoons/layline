@@ -32,7 +32,7 @@ body{
 .nav{
   top: 40px;
   position: relative;
-  z-index: 9999;
+  z-index: 999;
   right: 68px;
   font-size: 12px;
 }
@@ -79,7 +79,7 @@ li a:hover{
   position: fixed;
   width:100%;
   font-family: 'Montserrat-light', sans-serif;
-  z-index: 9999;
+  z-index: 999;
 }
 .nav2 > ul > li > .active{
   border-bottom: 2px solid #fff;
@@ -286,4 +286,63 @@ footer > .divide {
 width: 0.5px;
 height: 200px;
 border-left: solid 0.5px #ffffff;
+}
+.mlogo{
+  display: none;
+}
+.menu{
+  display: none;
+}
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .nav{
+      top:100px;
+    }
+}
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .menu{
+      /*background: url(../media/menu.svg) no-repeat;*/
+      /*width:30px;
+      height: 25px;*/
+      position: fixed;
+      z-index: 9999;
+      object-fit: contain;
+      top: 50px;
+      right: 27px;
+      display: inline;
+    }
+    .nav {
+      display: none;
+    }
+    .nav2{
+      display: none;
+    }
+    .disclaimer{
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 0.2px;
+      /*width: 326px;*/
+      height: 220px;
+    }
+    .mlogo{
+      height: 67px;
+      position: relative;
+      top: 25px;
+      left:21px;
+      display: inline;
+    }
+
 }
