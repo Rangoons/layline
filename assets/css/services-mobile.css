@@ -1,0 +1,30 @@
+.one{
+  background: url(../media/ocean.png) no-repeat;
+  width: 100%;
+  height: 630px;
+  background-size: cover;}
+.two{
+  background-color: #fafafa;
+  height: 1100px;
+  width: 100%;
+  margin-top: 420px;
+}
+.two > .wrapper > .title{
+  margin-top: 90px;
+}
+.client-tools{
+  float: none;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+.service-panels{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  background-color: #fafafa;
+}
+.panel{
+  margin-bottom: 40px;
+}

@@ -300,6 +300,8 @@ border-left: solid 0.5px #ffffff;
   background-color: #242424;
   display: none;
   overflow: hidden;
+  position: fixed;
+  z-index: 9998;
 }
 .menu-wrapper{
   width: 90%;
@@ -339,20 +341,107 @@ border-left: solid 0.5px #ffffff;
 #menu-icon{
   display: none;
 }
+/*iphone 5*/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #menu-icon {
+      width: 60px;
+      height: 45px;
+      position: fixed;
+      /*margin: 50px auto;*/
+      top: 50px;
+      right: 50px;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+      z-index: 9999;
+      display: inline;
+    }
+    .nav {
+      display: none;
+    }
+    .nav2{
+      display: none;
+    }
+    .disclaimer{
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 0.2px;
+      /*width: 326px;*/
+      height: 220px;
+    }
+    .mlogo{
+      height: 67px;
+      position: relative;
+      top: 25px;
+      left:21px;
+      display: inline;
+    }
+
+}
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .nav{
-      top:100px;
+    #menu-icon {
+      width: 60px;
+      height: 45px;
+      position: fixed;
+      /*margin: 50px auto;*/
+      top: 50px;
+      right: 50px;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+      z-index: 9999;
+      display: inline;
+    }
+    .nav {
+      display: none;
+    }
+    .nav2{
+      display: none;
+    }
+    .disclaimer{
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 0.2px;
+      /*width: 326px;*/
+      height: 220px;
+    }
+    .mlogo{
+      height: 67px;
+      position: relative;
+      top: 25px;
+      left:21px;
+      display: inline;
     }
 }
-@media only screen
+/*@media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
 
-}
+}*/
+/*iphone 6*/
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
@@ -400,7 +489,52 @@ border-left: solid 0.5px #ffffff;
     }
 
 }
-
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    #menu-icon {
+      width: 60px;
+      height: 45px;
+      position: fixed;
+      /*margin: 50px auto;*/
+      top: 50px;
+      right: 50px;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+      z-index: 9999;
+      display: inline;
+    }
+    .nav {
+      display: none;
+    }
+    .nav2{
+      display: none;
+    }
+    .disclaimer{
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 0.2px;
+      /*width: 326px;*/
+      height: 220px;
+    }
+    .mlogo{
+      height: 67px;
+      position: relative;
+      top: 25px;
+      left:21px;
+      display: inline;
+    }
+}
 
 #menu-icon span{
   display: block;

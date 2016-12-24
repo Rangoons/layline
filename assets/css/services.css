@@ -85,12 +85,12 @@
 }
 .wrapper{
   padding-top:184px;
-  padding-left: 334px;
+  padding-left: 250px;
 }
 .client-tools{
   float: right;
-  margin-right: 150px;
-  margin-top: 50px;
+  margin-left: 30px;
+  margin-top: -300px;
 }
 #mycanvas{
   float: right;
@@ -128,10 +128,10 @@
   float: none;
   margin-left: 95px;
 }
-.button-panel{
+/*.button-panel{
   width: 505px;
   margin: 68px auto;
-}
+}*/
 .service-btn{
   background-color: transparent;
   margin-right: 33px;
