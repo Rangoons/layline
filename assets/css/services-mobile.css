@@ -1,3 +1,12 @@
+.DOMcontainer{
+  overflow: hidden;
+}
+.one > .title{
+  margin-left: auto;
+  margin-right: auto;
+  width: 230px;
+  padding-top: 150px;
+}
 .one{
   background: url(../media/ocean.png) no-repeat;
   width: 100%;
@@ -5,25 +14,36 @@
   background-size: cover;}
 .two{
   background-color: #fafafa;
-  height: 1100px;
+  height: 1060px;
   width: 100%;
-  margin-top: 420px;
+  margin-top: 250px;
 }
 .two > .wrapper > .title{
-  margin-top: 90px;
+  margin-top: 200px;
 }
 .three{
-  height: 900px;
+  height: 850px;
+}
+.wrapper{
+  padding-top:184px;
+  padding-left: 20px;
+}
+.wrapper > ul > li{
+  width: 333px;
 }
 .client-tools{
   float: none;
-  margin-right: 150px;
+  width: 329px;
+	height: 189px;
   margin-top: 50px;
 }
 #mycanvas{
   float: none;
-  margin-right: 150px;
+  /*margin-right: 150px;*/
   margin-top: 50px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .service-panels{
   width: 100%;
@@ -35,4 +55,6 @@
 }
 .panel{
   margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
 }

@@ -1,0 +1,108 @@
+.DOMcontainer{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.one{
+  background: url(../media/fog.png) no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  /*overflow: auto;*/
+}
+.two{
+  width: 100%;
+  height: 700px;
+}
+.one > .title {
+  width: 176px;
+  height: 64px;
+  font-family: Montserrat;
+  font-size: 53px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.4px;
+  color: #2a2a2a;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+.one > .title > .short-rule-blue{
+  width: 43px;
+	border: solid 1px #4990e2;
+  float: none;
+}
+.td{
+  width: 300px;
+  /*width: 494px;*/
+
+  height: 203px;
+  object-fit: contain;
+  border-radius: 4.5px;
+  background-color: #fff;
+  border: solid 1.8px #54b948;
+  margin: 50px auto 0px;
+}
+.td > img {
+  margin: 56px 40px 0px 40px;
+  width: 200px;
+}
+.loginbg{
+  width: 302px;
+	height: 45.1px;
+	object-fit: contain;
+	border-radius: 0px 0px 4.5px 4.5px;
+	background-color: #54b948;
+  margin-top: 54px;
+  /*padding:1px;*/
+  margin-left: -1px;
+}
+.loginbg > a > .login{
+  width: 54px;
+	height: 19px;
+	font-family: 'Montserrat-light';
+	font-size: 16.2px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 0.4px;
+	color: #ffffff;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+a{
+  text-decoration: none;
+}
+.td > .loginbg:hover{
+  background-color: #fff;
+  border: solid 1.8px #54b948;
+  width: 300px;
+}
+.td > .loginbg:hover .login{
+  color:#54b948;
+}
+.emx{
+  width: 300px;
+  height: 203px;
+  object-fit: contain;
+  border-radius: 4.5px;
+  background-color: #ffffff;
+  border: solid 1.8px #1889b9;
+  margin: 75px auto;
+}
+.emx > img{
+  margin: 30px 40px 10px 40px;
+  width: 200px;
+}
+.emx > .loginbg{
+  	background-color: #1889b9;
+    margin-top: 31px;
+}
+.emx > .loginbg:hover{
+  background-color: #fff;
+  border: solid 1.8px #1889b9;
+  width: 300px;
+}
+.emx > .loginbg:hover .login{
+  color: #1889b9;
+}

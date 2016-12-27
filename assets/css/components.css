@@ -316,7 +316,7 @@ border-left: solid 0.5px #ffffff;
 }
 .menu-wrapper > ul > li{
   font-family: Montserrat-light;
-  font-size: 50px;
+  font-size: 19px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -324,7 +324,7 @@ border-left: solid 0.5px #ffffff;
   letter-spacing: 0.5px;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .menu-wrapper > ul > li > a{
   text-decoration: none;
@@ -335,8 +335,7 @@ border-left: solid 0.5px #ffffff;
   height: 4px;
   background: #fff;
   width: 90px;
-  /*margin: 30px auto;*/
-  margin-left: 47%;
+  margin-left: 43%;
 }
 #menu-icon{
   display: none;
@@ -347,12 +346,12 @@ border-left: solid 0.5px #ffffff;
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     #menu-icon {
-      width: 60px;
-      height: 45px;
+      width: 24px;
+      height: 20px;
       position: fixed;
       /*margin: 50px auto;*/
       top: 50px;
-      right: 50px;
+      right: 27px;
       -webkit-transform: rotate(0deg);
       -moz-transform: rotate(0deg);
       -o-transform: rotate(0deg);
@@ -372,7 +371,7 @@ border-left: solid 0.5px #ffffff;
       display: none;
     }
     .disclaimer{
-      font-size: 12px;
+      font-size: 9px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -394,12 +393,12 @@ border-left: solid 0.5px #ffffff;
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
     #menu-icon {
-      width: 60px;
-      height: 45px;
+      width: 24px;
+      height: 20px;
       position: fixed;
       /*margin: 50px auto;*/
       top: 50px;
-      right: 50px;
+      right: 27px;
       -webkit-transform: rotate(0deg);
       -moz-transform: rotate(0deg);
       -o-transform: rotate(0deg);
@@ -419,7 +418,7 @@ border-left: solid 0.5px #ffffff;
       display: none;
     }
     .disclaimer{
-      font-size: 12px;
+      font-size: 9px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -447,12 +446,12 @@ border-left: solid 0.5px #ffffff;
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     #menu-icon {
-      width: 60px;
-      height: 45px;
+      width: 24px;
+      height: 20px;
       position: fixed;
       /*margin: 50px auto;*/
       top: 50px;
-      right: 50px;
+      right: 27px;
       -webkit-transform: rotate(0deg);
       -moz-transform: rotate(0deg);
       -o-transform: rotate(0deg);
@@ -472,7 +471,7 @@ border-left: solid 0.5px #ffffff;
       display: none;
     }
     .disclaimer{
-      font-size: 12px;
+      font-size: 9px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -494,12 +493,12 @@ border-left: solid 0.5px #ffffff;
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
     #menu-icon {
-      width: 60px;
-      height: 45px;
+      width: 24px;
+      height: 20px;
       position: fixed;
       /*margin: 50px auto;*/
       top: 50px;
-      right: 50px;
+      right: 27px;
       -webkit-transform: rotate(0deg);
       -moz-transform: rotate(0deg);
       -o-transform: rotate(0deg);
@@ -519,7 +518,7 @@ border-left: solid 0.5px #ffffff;
       display: none;
     }
     .disclaimer{
-      font-size: 12px;
+      font-size: 9px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -539,7 +538,7 @@ border-left: solid 0.5px #ffffff;
 #menu-icon span{
   display: block;
   position: absolute;
-  height: 9px;
+  height: 3px;
   width: 100%;
   background: #4a4a4a;
   border-radius: 9px;
@@ -560,15 +559,15 @@ border-left: solid 0.5px #ffffff;
 }
 
 #menu-icon span:nth-child(2) {
-  top: 18px;
+  top: 8px;
 }
 
 #menu-icon span:nth-child(3) {
-  top: 36px;
+  top: 16px;
 }
 
 #menu-icon.open span:nth-child(1) {
-  top: 18px;
+  top: 8px;
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -o-transform: rotate(135deg);
@@ -582,7 +581,7 @@ border-left: solid 0.5px #ffffff;
 }
 
 #menu-icon.open span:nth-child(3) {
-  top: 18px;
+  top: 8px;
   -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
