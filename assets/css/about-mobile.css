@@ -1,0 +1,71 @@
+.one{
+  background: url(../media/about-ocean.png) no-repeat;
+  width: 100%;
+  height: 1400px;
+  background-size: cover;
+  overflow: auto;
+}
+.rectangle{
+  width: 89%;
+	height: 765px;
+	object-fit: contain;
+	background-color: #ffffff;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.29);
+  margin: 383px auto 0px;
+  position: relative;
+  z-index: 3;
+}
+.headshot{
+  width: 288px;
+	height: 200px;
+  object-fit: contain;
+  /*box-shadow: 0 3px 4px 0 #4a4a4a;*/
+  margin: -70px 0px 20px 430px;
+}
+.rectangle > .about > .title{
+  font-size: 33px;
+  font-family: 'Montserrat-SemiBold';
+  display: inline;
+  margin-top: 60px;
+  color: #3b3b3b;
+}
+.rectangle > .about > .FA{
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  clear: both;
+
+}
+.rectangle > .about > .position{
+  display: inline;
+  font-size: 33px;
+  font-family: 'Montserrat-light', sans-serif;
+}
+.about{
+  margin: 0px auto 0px 58px;
+  color: #4a4a4a;
+}
+.small{
+  width: 325px;
+	height: 156px;
+	font-family: 'Montserrat-light';
+	font-size: 15px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.73;
+	letter-spacing: 0.4px;
+	color: #4a4a4a;
+}
+.long{
+  width: 745px;
+	height: 182px;
+	font-family: 'Montserrat-light';
+	font-size: 15px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.73;
+	letter-spacing: 0.4px;
+	color: #4a4a4a;
+}

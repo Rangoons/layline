@@ -12,7 +12,15 @@
 .two > .wrapper > .title{
   margin-top: 90px;
 }
+.three{
+  height: 900px;
+}
 .client-tools{
+  float: none;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+#mycanvas{
   float: none;
   margin-right: 150px;
   margin-top: 50px;
