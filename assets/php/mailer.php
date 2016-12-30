@@ -7,7 +7,7 @@
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $phone = preg_replace('/[^0-9]/', '', $_POST['phone']);
-        $status = $_POST["staus"];
+        $status = $_POST["status"];
         $assets = $_POST["assets"];
         $message = trim($_POST["extra"]);
 
