@@ -447,6 +447,7 @@ border-left: solid 0.5px #ffffff;
     .section-one{
       order:4;
       margin-left: 20px;
+      margin-top:20px;
     }
     .section-two{
       order: 2;
@@ -584,6 +585,7 @@ border-left: solid 0.5px #ffffff;
     .section-one{
       order:4;
       margin-left: 20px;
+      margin-top:20px;
     }
     .section-two{
       order: 2;
@@ -727,6 +729,7 @@ border-left: solid 0.5px #ffffff;
     .section-one{
       order:4;
       margin-left: 20px;
+      margin-top:20px;
     }
     .section-two{
       order: 2;

@@ -1,0 +1,53 @@
+.DOMcontainer{
+  overflow: hidden;
+}
+.one{
+  height: 206px;
+}
+.one > .title {
+  width: 141px;
+  height: 64px;
+  font-size: 28px;
+  padding-top: 60px;
+}
+.one > .title > .short-rule-blue{
+  width: 23px;
+	border: solid 0.5px #4990e2;
+  height: 1px;
+  float: none;
+}
+.button-panel{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-panel > button {
+  width: 231px;
+	height: 41px;
+	border: solid 1.1px #4a4a4a;
+  background: transparent;
+  color: #4a4a4a;
+  font-size: 18px;
+}
+.button-panel > button:nth-child(1) {
+  margin-bottom: 20px;
+}
+.or{
+  margin-bottom: 20px;
+}
+.blurb{
+  width: 270px;
+  margin: 67px auto;
+}
+.blurb > h1{
+  width: 270px;
+  height: 42px;
+  font-size: 30px;
+}
+.blurb > hr{
+  width: 217px;
+	border: solid 0.7px #4a4a4a;
+  margin: 30px auto;
+}

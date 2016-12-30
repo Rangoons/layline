@@ -177,7 +177,7 @@
   margin-right: 37px;
 }
 .panel > h2{
-  width: 52.4px;
+  /*width: 52.4px;*/
   height: 21px;
   font-family: Montserrat;
   font-size: 17.6px;
@@ -208,21 +208,21 @@
 	height: 80px;
 	object-fit: contain;
   background: url(../media/todo-list.svg);
-  margin: 34px 111px 20px 119px;
+  margin: 34px auto 20px auto;
 }
 .bullish {
 	width: 92px;
 	height: 90px;
 	object-fit: contain;
   background: url(../media/bullish.svg);
-  margin: 26px 112.3px 20px 113.7px;
+  margin: 26px auto 20px auto;
 }
 .opera-glasses {
 	width: 96px;
 	height: 74px;
 	object-fit: contain;
   background: url(../media/opera-glasses.svg);
-  margin: 39px 105px 20px 117px;
+  margin: 39px auto 20px auto;
 }
 .pricing-chart{
   width: 435px;

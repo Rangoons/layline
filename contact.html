@@ -7,12 +7,41 @@
   <link href="https://fonts.googleapis.com/css?family=Martel+Sans:200,400" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/components.css">
   <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" media="screen and (max-device-width: 800px)" href="assets/css/contact-mobile.css" />
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/nav.js" charset="utf-8"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div class="DOMcontainer">
+    <div id="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="mobile-menu">
+
+
+    <div class="menu-wrapper">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">Who We Are</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+      <hr class="short-rule-white">
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="adv.pdf" target="_blank">ADV</a></li>
+      </ul>
+    </div>
+    </div>
   <section class="one">
+    <img src="assets/media/logo.png" alt="" class="mlogo">
+
     <div class="nav" id="nav">
       <img src="assets/media/logo.png" alt="" class="logo" id="logo">
       <ul>
@@ -42,35 +71,42 @@
       <button id="showForm">Send a Message</button> <div class="or">or</div> <button id="showCalendar">Schedule a Meeting</button>
     </div>
     <div class="contact-container">
+      <div id="form-messages"></div>
       <div class="calendly-inline-widget" data-url="https://calendly.com/mark-wyand" style="min-width:320px;height:580px;" id="calendly"></div>
       <form action="" id="contact-form">
-        <div class="form-group">
+        <div class="form-group name">
           <label for="fullname">Full Name</label>
           <input type="text" name="fullname" id="fullname">
         </div>
-        <div class="form-group">
+        <div class="form-group status">
           <label for="describe">What best describes you?</label>
-          <select name="describe" id="">
+          <select name="describe" id="status">
             <option value="working">Working Professional</option>
             <option value="looking">Looking to Retire</option>
             <option value="retired">Retired</option>
           </select>
         </div>
-        <div class="form-group">
+        <div class="form-group phone">
           <label for="phone">Phone Number</label>
           <input type="text" name="phone" id="phone">
         </div>
-        <div class="form-group" id="assets">
+        <div class="form-group assets" id="asset">
           <label for="assets">Amount of investable assets (Optional)</label>
-          <input id="slider" type="range" min="0" max="4" step="1" name="assets" />
+          <select name="assets" id="assets">
+            <option value="no-answer">Do not wish to say</option>
+            <option value="0-250">0-250K</option>
+            <option value="250-500">250-500K</option>
+            <option value="500-1">500-1M</option>
+            <option value=">1">>1M</option>
+          </select>
         </div>
-        <div class="form-group" id="email-group">
+        <div class="form-group email" id="email-group">
           <label for="email">Email</label>
           <input type="text" name="email" id="email">
         </div>
-        <div class="form-group">
+        <div class="form-group extra">
           <label for="extra">Anything else you'd like to mention?</label>
-          <textarea name="extra" rows="8" cols="88"></textarea>
+          <textarea name="extra" rows="8" cols="88" id="extra"></textarea>
         </div>
         <input type="submit" value="SEND" id="send">
       </form>
@@ -97,22 +133,22 @@
     <div class="section-two">
       <div class="footer-nav">
         <ul>
-          <li>HOME</li>
-          <li>SERVICES</li>
-          <li>WHO WE ARE</li>
-          <li>BLOG</li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="about.html">WHO WE ARE</a></li>
+          <li><a href="blog.php">BLOG</a></li>
         </ul>
       </div>
     </div>
     <span class="divide"></span>
     <div class="section-three">
-      <iframe width="240" height="190" frameborder="0" style="border:0"
+      <iframe width="335" height="237" frameborder="0" style="border:0"
   src="https://www.google.com/maps/embed/v1/place?q=17%20Prince%20St%20Rochester%20NY&key=AIzaSyDAa4U5hQCHEK7gW3RQCFlo-5TXLAvjoPY" allowfullscreen></iframe>
     </div>
     <span class="divide"></span>
     <div class="section-four">
-      Get in touch. <button class="white-button">CONTACT</button>
-      Access your accounts. <button class="white-button">LOGIN</button>
+      Get in touch. <a href="contact.html"><button class="white-button">CONTACT</button></a>
+      Access your accounts. <a href="login.html"><button class="white-button">LOGIN</button></a>
     </div>
   </footer>
   </div>
