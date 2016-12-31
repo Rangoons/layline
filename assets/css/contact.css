@@ -254,6 +254,10 @@ input[type=range]:focus::-ms-fill-upper {
 /*#email-group{
   margin-top: -100px;
 }*/
+#extra{
+  width:639px;
+  height:126px;
+}
 #send{
   position: relative;
   left: 564px;

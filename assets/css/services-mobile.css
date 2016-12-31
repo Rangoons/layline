@@ -4,8 +4,17 @@
 .one > .title{
   margin-left: auto;
   margin-right: auto;
-  width: 230px;
+  width: 99px;
   padding-top: 150px;
+  font-size: 22px;
+}
+.one > .short-rule-blue{
+  width: 37px;
+  margin: -30px auto 0;
+  float: none;
+}
+.short-rule-blue{
+  width: 37px;
 }
 .one{
   background: url(../media/ocean.png) no-repeat;
@@ -18,8 +27,15 @@
   width: 100%;
   margin-top: 250px;
 }
+.wrapper > .title{
+  font-size: 19px;
+}
 .two > .wrapper > .title{
   margin-top: 200px;
+}
+.three > .wrapper > .title{
+  width: 300px;
+  font-size: 19px;
 }
 .three{
   height: 850px;

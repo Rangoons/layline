@@ -287,8 +287,12 @@ padding-bottom: 50px;
 }
 /*iphone 5*/
 @media only screen
-  and (max-device-width: 320px)
+  and (max-device-width: 375px)
   and (-webkit-min-device-pixel-ratio: 2){
+    .title-container > .title{
+      width: 300px;
+      font-size: 19px;
+    }
     .about-content{
       width: 89%;
     }
