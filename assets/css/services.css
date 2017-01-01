@@ -20,6 +20,9 @@
   height: 515px;
   background-color: #fafafa;
 }
+a{
+  text-decoration: none;
+}
 .four > .wrapper{
   width: 779px;
   height: 156px;
@@ -46,7 +49,7 @@
   color: #4a4a4a;
 }*/
 .one > .title {
-  width: 279px;
+  width: 230px;
   height: 64px;
   font-family: Montserrat;
   font-size: 53px;
@@ -121,12 +124,12 @@
   letter-spacing: 0.4px;
   color: #4a4a4a;
 }
-.one > .title > .short-rule-blue{
+.one > .short-rule-blue{
   width: 43px;
 	height: 2px;
 	border: solid 2px #4990e2;
   float: none;
-  margin-left: 95px;
+  margin: 0 auto;
 }
 /*.button-panel{
   width: 505px;
@@ -168,6 +171,10 @@
   justify-content: center;
   margin-top: 200px;
 }
+.service-panels > a{
+  width: 315px;
+  height: 250px;
+}
 .panel{
   width: 315px;
 	height: 250px;
@@ -203,25 +210,28 @@
   color: #4a4a4a;
   margin: 15px auto;
 }
+.panel:hover{
+  box-shadow: 2px 5px 6px 2px rgba(0, 0, 0, 0.29);
+}
 .todo-list {
 	width: 85px;
 	height: 80px;
 	object-fit: contain;
-  background: url(../media/todo-list.svg);
+  background: url(../media/todo-list.svg) no-repeat;
   margin: 34px auto 20px auto;
 }
 .bullish {
 	width: 92px;
 	height: 90px;
 	object-fit: contain;
-  background: url(../media/bullish.svg);
+  background: url(../media/bullish.svg)  no-repeat;
   margin: 26px auto 20px auto;
 }
 .opera-glasses {
 	width: 96px;
 	height: 74px;
 	object-fit: contain;
-  background: url(../media/opera-glasses.svg);
+  background: url(../media/opera-glasses.svg)  no-repeat;
   margin: 39px auto 20px auto;
 }
 .pricing-chart{
