@@ -290,7 +290,11 @@ padding-bottom: 50px;
   and (max-device-width: 375px)
   and (-webkit-min-device-pixel-ratio: 2){
     .title-container > .title{
-      width: 300px;
+      width: 100%;
+      font-size: 18px;
+    }
+    .title-container{
+      width: 100%;
       font-size: 19px;
     }
     .about-content{

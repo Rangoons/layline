@@ -309,7 +309,7 @@ border-left: solid 0.5px #ffffff;
   z-index: 9998;
 }
 .menu-wrapper{
-  width: 90%;
+  width: 80%;
   /*height: 338px;*/
   overflow: auto;
   margin: 0 auto;
@@ -318,6 +318,7 @@ border-left: solid 0.5px #ffffff;
 
 .menu-wrapper > ul{
   list-style-type: none;
+  width: 73%;
 }
 .menu-wrapper > ul > li{
   font-family: Montserrat-light;
@@ -340,7 +341,7 @@ border-left: solid 0.5px #ffffff;
   height: 4px;
   background: #fff;
   width: 90px;
-  margin-left: 43%;
+  /*margin-left: 43%;*/
 }
 #menu-icon{
   display: none;
