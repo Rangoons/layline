@@ -436,13 +436,14 @@ border-left: solid 0.5px #ffffff;
     }
     .footer-nav > ul{
       list-style-type: none;
-      margin-left: -10px;
+      margin-left: -20px;
+      width: 100%;
 
     }
     .footer-nav > ul > li{
       margin-right: 10px;
       display: inline-block;
-      font-size: 12px;
+      font-size: 9px;
       font-family: 'Montserrat-light', sans-serif;
     }
     .section-one{
@@ -574,13 +575,13 @@ border-left: solid 0.5px #ffffff;
     }
     .footer-nav > ul{
       list-style-type: none;
-      margin-left: -10px;
-
+      margin-left: -20px;
+      width: 100%;
     }
     .footer-nav > ul > li{
       margin-right: 10px;
       display: inline-block;
-      font-size: 12px;
+      font-size: 9px;
       font-family: 'Montserrat-light', sans-serif;
     }
     .section-one{
@@ -622,12 +623,143 @@ border-left: solid 0.5px #ffffff;
     display: none;
     }
 }
-/*@media only screen
+@media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
+    #menu-icon {
+      width: 24px;
+      height: 20px;
+      position: fixed;
+      /*margin: 50px auto;*/
+      top: 50px;
+      right: 27px;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+      z-index: 9999;
+      display: inline;
+    }
+    .nav {
+      display: none;
+    }
+    .nav2{
+      display: none;
+    }
+    .disclaimer{
+      font-size: 9px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 0.2px;
+      /*width: 326px;*/
+      height: 220px;
+    }
+    .mlogo{
+      height: 67px;
+      position: relative;
+      top: 25px;
+      left:21px;
+      display: inline;
+    }
+    footer{
+     height: 815px;
+     width:100%;
+     background-color: #4a4a4a;
+     border: solid 1px #4a4a4a;
+     color: #fff;
+     font-family: 'Montserrat-light', sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     position: relative;
+     z-index: 2;
+    }
+    .logo-lite{
+      background: url(../media/logo-lite.svg) no-repeat;
+      width:200px;
+      height: 70px;
+      object-fit: contain;
+    }
+    .footer-title{
+      font-family: 'Martel Sans';
+      font-weight: 200;
+      padding-top: 40px;
+      padding-left: 35px;
+    }
+    .contact-info{
+      width: 200px;
+      height: 100px;
+      font-family: 'Montserrat-light', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.67;
+      letter-spacing: 0.4px;
+      color: #ffffff;
+    }
+    .contact-info > ul{
+      list-style-type: none;
 
-}*/
+    }
+    .footer-nav > ul{
+      list-style-type: none;
+      margin-left: -20px;
+      width: 100%;
+    }
+    .footer-nav > ul > li{
+      margin-right: 10px;
+      display: inline-block;
+      font-size: 9px;
+      font-family: 'Montserrat-light', sans-serif;
+    }
+    .section-one{
+      order:4;
+      margin-left: 20px;
+      margin-top:20px;
+    }
+    .section-two{
+      order: 2;
+      width: 315px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .section-three{
+      order: 3;
+      width: 335px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .section-four{
+      order: 1;
+      margin-left: 20px;
+    }
+    .section-four > a {
+      text-decoration: none;
+    }
+    .section-four > a > .white-button{
+      font-family: 'Montserrat-light', sans-serif;
+      width: 106px;
+      height: 30px;
+      font-size: 13px;
+      letter-spacing: 0.3px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      border: 1px solid #fafafa;
+      cursor: pointer;
+    }
+    footer > .divide {
+    display: none;
+    }
+}
 /*iphone 6*/
 @media only screen
   and (min-device-width: 375px)
@@ -716,15 +848,18 @@ border-left: solid 0.5px #ffffff;
       list-style-type: none;
 
     }
+    .footer-nav{
+      margin: 0 auto;
+    }
     .footer-nav > ul{
       list-style-type: none;
-      margin-left: -10px;
-
+      margin-left: -20px;
+      width: 100%;
     }
     .footer-nav > ul > li{
       margin-right: 10px;
       display: inline-block;
-      font-size: 12px;
+      font-size: 9px;
       font-family: 'Montserrat-light', sans-serif;
     }
     .section-one{
@@ -766,6 +901,140 @@ border-left: solid 0.5px #ffffff;
     display: none;
     }
 
+}
+@media only screen and (max-width: 1200px){
+  #menu-icon {
+    width: 24px;
+    height: 20px;
+    position: fixed;
+    /*margin: 50px auto;*/
+    top: 50px;
+    right: 27px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    z-index: 9999;
+    display: inline;
+  }
+  .nav {
+    display: none;
+  }
+  .nav2{
+    display: none;
+  }
+  .disclaimer{
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.2px;
+    /*width: 326px;*/
+    height: 220px;
+  }
+  .mlogo{
+    height: 67px;
+    position: relative;
+    top: 25px;
+    left:21px;
+    display: inline;
+  }
+  footer{
+   height: 815px;
+   width:100%;
+   background-color: #4a4a4a;
+   border: solid 1px #4a4a4a;
+   color: #fff;
+   font-family: 'Montserrat-light', sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   position: relative;
+   z-index: 2;
+  }
+  .logo-lite{
+    background: url(../media/logo-lite.svg) no-repeat;
+    width:200px;
+    height: 70px;
+    object-fit: contain;
+  }
+  .footer-title{
+    font-family: 'Martel Sans';
+    font-weight: 200;
+    padding-top: 40px;
+    padding-left: 35px;
+  }
+  .contact-info{
+    width: 200px;
+    height: 100px;
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+  .contact-info > ul{
+    list-style-type: none;
+
+  }
+  .footer-nav > ul{
+    list-style-type: none;
+    margin-left: -20px;
+    width: 100%;
+  }
+  .footer-nav > ul > li{
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 9px;
+    font-family: 'Montserrat-light', sans-serif;
+  }
+  .section-one{
+    order:4;
+    margin-left: 20px;
+    margin-top:20px;
+  }
+  .section-two{
+    order: 2;
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-three{
+    order: 3;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-four{
+    order: 1;
+    margin-left: 20px;
+  }
+  .section-four > a {
+    text-decoration: none;
+  }
+  .section-four > a > .white-button{
+    font-family: 'Montserrat-light', sans-serif;
+    width: 106px;
+    height: 30px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #fafafa;
+    cursor: pointer;
+  }
+  footer > .divide {
+  display: none;
+  }
 }
 /*iphone 6+*/
 @media only screen
@@ -857,13 +1126,13 @@ border-left: solid 0.5px #ffffff;
     }
     .footer-nav > ul{
       list-style-type: none;
-      margin-left: -10px;
+
 
     }
     .footer-nav > ul > li{
       margin-right: 10px;
       display: inline-block;
-      font-size: 12px;
+      font-size: 9px;
       font-family: 'Montserrat-light', sans-serif;
     }
     .section-one{

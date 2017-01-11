@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 .one{
   background: url(../media/bouy.png) no-repeat;
   width: 100%;
@@ -209,12 +212,12 @@
 }
 .post{
   border: 1px solid #ababab;
-  height: 200px;
+  height: 280px;
   width: 280px;
   margin: 15px;
 }
 .post-date{
-  margin-top: 205px;
+  margin-top: 285px;
   color: #1780af;
   max-width: 280px;
   font-size: 14px;
@@ -222,8 +225,14 @@
 
 }
 .post-title{
-  	color: #4a4a4a;
+
     max-width: 280px;
+}
+.post-title > a {
+  color: #4a4a4a;
+}
+.post-title > a:hover{
+  text-decoration: underline;
 }
 .disclaimer{
 font-family: Montserrat;
@@ -237,6 +246,6 @@ text-align: center;
 color: #ababab;
 margin: 0px auto;
 line-height: 16px;
-padding-top: 200px;
+padding-top: 155px;
 padding-bottom: 50px;
 }

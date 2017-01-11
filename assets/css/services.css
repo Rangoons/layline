@@ -24,8 +24,8 @@ a{
   text-decoration: none;
 }
 .four > .wrapper{
-  width: 779px;
-  height: 156px;
+  /*width: 779px;
+  height: 156px;*/
   font-family: Montserrat-light;
   font-size: 15px;
   font-weight: 300;
@@ -92,12 +92,12 @@ a{
 }
 .client-tools{
   float: right;
-  margin-left: 30px;
+  margin-right: 200px;
   margin-top: -300px;
 }
 #mycanvas{
   float: right;
-  margin-right: 150px;
+  margin-right: 275px;
   margin-top: -320px;
 }
 .wrapper > .subtitle{
@@ -234,10 +234,11 @@ a{
   background: url(../media/opera-glasses.svg)  no-repeat;
   margin: 39px auto 20px auto;
 }
-.pricing-chart{
+.graph{
   width: 435px;
   height: 350px;
   object-fit: contain;
-  background: url(../media/pricing-chart.png);
-  margin: 50px auto;
+  float: right;
+  margin-right: 200px;
+  margin-top: -300px;
 }

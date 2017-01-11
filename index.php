@@ -1,3 +1,4 @@
+<?php require('includes/config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +29,7 @@
 
 <div class="menu-wrapper">
   <ul>
-    <li><a href="index.html">Home</a></li>
+    <li><a href="index.php">Home</a></li>
     <li><a href="services.html">Services</a></li>
     <li><a href="pricing.html">Pricing</a></li>
     <li><a href="about.html">Who We Are</a></li>
@@ -44,7 +45,7 @@
 </div>
 
 <div class="nav" id="nav">
-  <img src="assets/media/logo.png" alt="" class="logo" id="logo">
+  <a href="index.php"><img src="assets/media/logo.png" alt="" class="logo" id="logo"></a>
   <ul>
     <li><a href="#" onClick="activeItem(this)" class="active nav-item" id="home">HOME</a></li>
     <li><a href="services.html" onClick="activeItem(this)" class="nav-item" id="services">SERVICES</a></li>
@@ -129,9 +130,24 @@ Today’s client demands more than an office visit. We leverage technology and t
 <section class="five">
   <div class="title">Blog</div>
   <hr class="short-rule-blue">
-  <div class="center" style="text-align:center;width:300px;margin:0 auto;">The blog will be here soon.</div>
   <div class="blog-posts">
+    <?php
+     try {
 
+       $stmt = $db->query('SELECT postID, postTitle, postDesc, postDate, postPic FROM blog_posts ORDER BY postID DESC LIMIT 3');
+       while($row = $stmt->fetch()){
+
+         echo '<div class="post" style="background:url('.$row['postPic'].') no-repeat;background-size:cover;">';
+           echo '<div class="post-date">'.date('jS M Y H:i:s', strtotime($row['postDate'])).'</div>';
+           echo '<div class="post-title"><a href="viewpost.php?id='.$row['postID'].'">'.$row['postTitle'].'</a></div>';
+         echo '</div>';
+
+       }
+
+     } catch(PDOException $e) {
+         echo $e->getMessage();
+     }
+   ?>
     <!-- <div class="post">
       <div class="post-date">11.20.16 - Investing, Tips</div>
       <div class="post-title">This Election Post</div>
@@ -139,8 +155,8 @@ Today’s client demands more than an office visit. We leverage technology and t
     <div class="post">
       <div class="post-date">11.20.16 - Investing, Tips</div>
       <div class="post-title">Long Title, a very very long title detailing Layline.</div>
-    </div>
-  </div> -->
+    </div>-->
+  </div>
   <div class="disclaimer">
 LAYLINE ADVISORS, LLC (“LAYLINE ADVISORS”) is a registered investment adviser offering advisory services in the States of New York and Texas and in other jurisdictions where exempted. Registration does not imply a certain level of skill or training. The presence of this website on the Internet shall not be directly or indirectly interpreted as a solicitation of investment advisory services to persons of another jurisdiction unless otherwise permitted by statute. The information on this site is provided “AS IS” and without warranties of any kind either express or implied. To the fullest extent permissible pursuant to applicable laws, LAYLINE ADVISORS disclaims all warranties, express or implied, including, but not limited to, implied warranties of merchantability, non-infringement and suitability for a particular purpose. LAYLINE ADVISORS does not warrant that the information will be free from error. None of the information provided on this website is intended as investment, tax, accounting or legal advice, as an offer or solicitation of an offer to buy or sell, or as an endorsement of any company, security, fund, or other securities or non-securities offering. The information should not be relied upon for purposes of transacting securities or other investments. Your use of the information is at your sole risk. Under no circumstances shall LAYLINE ADVISORS be liable for any direct, indirect, special or consequential damages that result from the use of, or the inability to use, the materials in this site, even if LAYLINE ADVISORS or a LAYLINE ADVISORS authorized representative has been advised of the possibility of such damages. In no event shall LAYLINE ADVISORS, LLC have any liability to you for damages, losses and causes of action for accessing this site. Information on this website should not be considered a solicitation to buy, an offer to sell, or a recommendation of any security in any jurisdiction where such offer, solicitation, or recommendation would be unlawful or unauthorized.  </div>
 </section>
@@ -165,7 +181,7 @@ LAYLINE ADVISORS, LLC (“LAYLINE ADVISORS”) is a registered investment advise
   <div class="section-two">
     <div class="footer-nav">
       <ul>
-        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.php">HOME</a></li>
         <li><a href="services.html">SERVICES</a></li>
         <li><a href="pricing.html">PRICING</a></li>
         <li><a href="about.html">WHO WE ARE</a></li>
